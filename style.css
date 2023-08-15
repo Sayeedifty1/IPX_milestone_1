@@ -1,0 +1,56 @@
+header, footer, aside, nav, main, article, section {
+    display: block;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+footer {
+    clear: both;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.left-content {
+    /* width: 60%; */
+    /* float: left; */
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+div{
+
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.article-container{
+    display: flex;
+    
+}
+  
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.details {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
