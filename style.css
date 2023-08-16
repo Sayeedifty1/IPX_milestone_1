@@ -1,6 +1,6 @@
 *{
     font-family: Arial, sans-serif;
-
+    margin: 0 auto;
 }
 header, footer, aside, nav, main, article, section {
     display: block;
@@ -119,4 +119,61 @@ div{
 }
 .label button {
     margin-top: 10px;
+}
+
+/* responsive  for mobile*/
+@media screen and (max-width: 576px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    aside{
+        width: 100%;
+        float: none;
+    }
+    .left-content {
+        width: 100%;
+        float: none;
+    }
+    .details {
+        width: 100%;
+        float: none;
+    }
+    .article-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+        float: none;
+    }
+}
+/* responsive for tablet */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    *{
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    aside{
+        width: 100%;
+        float: none;
+    }
+    .left-content {
+        width: 100%;
+        float: none;
+    }
+    .details {
+        width: 100%;
+        float: none;
+    }
+    .article-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+        float: none;
+    }
 }
